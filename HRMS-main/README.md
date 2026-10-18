@@ -147,5 +147,3 @@ Review [`docs/security/project_review.md`](docs/security/project_review.md) befo
 - [AI evaluation cases](docs/evaluation/)
 - [Security review](docs/security/project_review.md)
 - [Demo runbook](docs/demo_runbook.md)
-
-Copyright (c) Codebasics. All rights reserved.

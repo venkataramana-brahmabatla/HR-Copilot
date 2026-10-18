@@ -127,5 +127,3 @@ npm run build
 - [Security review](HRMS-main/docs/security/project_review.md)
 - [Demo runbook](HRMS-main/docs/demo_runbook.md)
 - [Assignment implementation plan](docs/assignment5_hr_copilot_implementation_plan.md)
-
-Copyright (c) Codebasics. All rights reserved.
