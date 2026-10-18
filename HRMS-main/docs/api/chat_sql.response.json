@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": {
+    "question": "Which employees on my team have Python skills?",
+    "sql": "SELECT e.name FROM employees AS e JOIN employee_skills AS es ON es.employee_id = e.id JOIN skills AS s ON s.id = es.skill_id WHERE e.manager_id = :current_employee_id AND es.employee_id IN (SELECT id FROM employees WHERE manager_id = :current_employee_id) LIMIT 100",
+    "result": [
+      {
+        "name": "Alex Morgan"
+      }
+    ],
+    "summary": "The query returned one matching record."
+  },
+  "error": null
+}

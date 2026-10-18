@@ -1,0 +1,4 @@
+# IDE and operating-system files
+.idea/
+**/.idea/
+.DS_Store

@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "intent": "ACTION",
+    "answer": "Your leave balance is Casual: 12 days remaining; Sick: 10 days remaining; Earned: 15 days remaining.",
+    "tool": {
+      "name": "get_leave_balance",
+      "status": "success",
+      "result": [
+        {
+          "id": 1,
+          "leave_type": "CASUAL",
+          "total": 12,
+          "used": 0,
+          "remaining": 12
+        },
+        {
+          "id": 2,
+          "leave_type": "SICK",
+          "total": 10,
+          "used": 0,
+          "remaining": 10
+        },
+        {
+          "id": 3,
+          "leave_type": "EARNED",
+          "total": 15,
+          "used": 0,
+          "remaining": 15
+        }
+      ]
+    }
+  },
+  "error": null
+}

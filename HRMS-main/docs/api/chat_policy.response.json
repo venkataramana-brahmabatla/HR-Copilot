@@ -1,0 +1,28 @@
+{
+  "title": "PolicyChatResponse",
+  "type": "object",
+  "required": ["success", "data", "error"],
+  "properties": {
+    "success": { "type": "boolean", "example": true },
+    "data": {
+      "type": "object",
+      "required": ["answer", "sources"],
+      "properties": {
+        "answer": { "type": "string" },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["policy", "category", "section"],
+            "properties": {
+              "policy": { "type": "string" },
+              "category": { "type": "string" },
+              "section": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "error": { "type": "null" }
+  }
+}

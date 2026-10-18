@@ -1,0 +1,8 @@
+{
+  "question": "What about sick leave?",
+  "session_id": "session-123",
+  "history": [
+    { "role": "user", "content": "What is the casual leave policy?" },
+    { "role": "assistant", "content": "The policy allows casual leave for personal needs." }
+  ]
+}

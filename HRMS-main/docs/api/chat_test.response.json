@@ -1,0 +1,20 @@
+{
+  "title": "ChatTestResponse",
+  "type": "object",
+  "required": ["success", "data", "error"],
+  "properties": {
+    "success": { "type": "boolean", "example": true },
+    "data": {
+      "type": "object",
+      "required": ["answer"],
+      "properties": { "answer": { "type": "string" } }
+    },
+    "error": { "type": "null" }
+  },
+  "errorResponses": {
+    "401": "Authentication required",
+    "502": "Model provider error",
+    "503": "GROQ_API_KEY is not configured",
+    "504": "Model provider timed out"
+  }
+}

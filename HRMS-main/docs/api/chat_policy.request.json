@@ -1,0 +1,13 @@
+{
+  "title": "PolicyChatRequest",
+  "type": "object",
+  "required": ["question"],
+  "properties": {
+    "question": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "example": "What time should I clock in?"
+    }
+  }
+}

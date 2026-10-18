@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "data": {
+    "intent": "POLICY",
+    "answer": "The policy answer based on the available HR policy documents.",
+    "result": {
+      "answer": "The policy answer based on the available HR policy documents.",
+      "sources": [
+        { "policy": "Leave Policy", "category": "Leave", "section": "Sick Leave" }
+      ]
+    },
+    "session_id": "session-123"
+  },
+  "error": null
+}
